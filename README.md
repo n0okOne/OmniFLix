@@ -35,6 +35,6 @@ bash restakingOmniFLix.sh
 ```
 6. Enjoy it :)
 
-<a href="http://manticore.team/">www.manticore.team</a> \n
-<a href="https://medium.com/@MantiCore.Team">medium.com</a> \n
+<a href="http://manticore.team/">www.manticore.team</a> <br>
+<a href="https://medium.com/@MantiCore.Team">medium.com</a>  <br>
 <a href="https://t.me/MantiCoreTeam">Telegram</a>
