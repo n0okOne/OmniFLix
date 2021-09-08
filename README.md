@@ -34,3 +34,7 @@ screen -S scriptOmniFLix
 bash restakingOmniFLix.sh
 ```
 6. Enjoy it :)
+
+<a href="http://manticore.team/">www.manticore.team</a>
+<a href="https://medium.com/@MantiCore.Team">medium.com</a>
+<a href="https://t.me/MantiCoreTeam">Telegram</a>
