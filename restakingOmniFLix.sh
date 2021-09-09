@@ -13,7 +13,7 @@ for (( ;; )); do
         BAL=$(omniflixhubd q  bank balances ${DELEGATOR});
         echo -e "BALANCE: ${GREEN}${BAL}${NC} uflix\n"
         echo -e "Claim rewards\n"
-        echo -e "${PASWD}\n${PASWD}\n" | omniflixhubd tx distribution withdraw-rewards ${VALIDATOR} --chain-id flixnet-2 --from ${ACC_NAME} --gas auto -y 
+        echo -e "${PASWD}\n${PASWD}\n" | omniflixhubd tx distribution withdraw-rewards ${VALIDATOR} --chain-id flixnet-2 --from ${ACC_NAME} --commission --gas auto -y 
         for (( timer=10; timer>0; timer-- ))
         do
                 printf "* sleep for ${RED}%02d${NC} sec\r" $timer
