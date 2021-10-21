@@ -20,6 +20,7 @@ for (( ;; )); do
                 sleep 1
         done
         BAL=$(omniflixhubd query bank balances ${DELEGATOR} --node ${NODE} -o json | jq -r '.balances  | .[].amount');
+        BAL=$((BAL-1000000));
         echo -e "BALANCE: ${GREEN}${BAL}${NC} uflix\n"
         echo -e "Stake ALL\n"
         echo -e "${PASWD}\n${PASWD}\n" | omniflixhubd tx staking delegate ${VALIDATOR} ${BAL}uflix  --chain-id flixnet-2 --from ${ACC_NAME}  --gas auto -y 
